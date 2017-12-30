@@ -1,6 +1,6 @@
 # 3intcomp
 
-Save file in 3 int or even less
+Compress file in 3 integers or even less.
 
 ## How it works
 
@@ -8,7 +8,7 @@ We can use the randomness of irrational number for save large file into several 
 
 ## Limitation
 
-This projection is not guarantee 1 to 1, so in a small range, the answer may not be found, and some target string pattern can be found multiple times. Also, finding a solution is computational hard.
+This encoding is not guarantee 1 to 1, so in a small range, the answer may not be found, and some target string pattern can be found multiple times. Also, finding a solution is computational hard.
 
 ## Beyond 3 int
 
@@ -50,4 +50,4 @@ python decode.py 0 60492 2
 
 ### Pseudo random generator
 
-The repeat cycle in python pseudo random generator is `2 ** 19937 - 1`, so for certain demonstration, it's enough.
+The repeat cycle in python pseudo random generator is `2 ** 19937 - 1`, so for this demonstration, it's enough.
