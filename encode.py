@@ -3,7 +3,7 @@ import os.path
 import argparse
 import random
 
-MAX_SIZE = sys.maxsize
+MAX_SIZE = 2 ** 32
 
 def kmp(pattern):
     ret = [0]
